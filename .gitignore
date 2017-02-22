@@ -1,47 +1,51 @@
-# Windows image file caches
-Thumbs.db
-ehthumbs.db
-
-# Folder config file
-Desktop.ini
-
-# Recycle Bin used on file shares
-$RECYCLE.BIN/
-
-# Windows Installer files
-*.cab
-*.msi
-*.msm
-*.msp
-
-# Windows shortcuts
-*.lnk
-
-# =========================
-# Operating System Files
-# =========================
-
-# OSX
-# =========================
-
-.DS_Store
-.AppleDouble
-.LSOverride
-
-# Thumbnails
-._*
-
-# Files that might appear in the root of a volume
-.DocumentRevisions-V100
-.fseventsd
-.Spotlight-V100
-.TemporaryItems
-.Trashes
-.VolumeIcon.icns
-
-# Directories potentially created on remote AFP share
-.AppleDB
-.AppleDesktop
-Network Trash Folder
-Temporary Items
-.apdisk
+# Ignore file for Visual Studio 2008
+# use glob syntax
+syntax: glob
+# Ignore Visual Studio 2008 files
+*.obj
+*.pdb
+*.user
+*.aps
+*.pch
+*.vspscc
+*.vssscc
+*_i.c
+*_p.c
+*.ncb
+*.suo
+*.tlb
+*.tlh
+*.bak
+*.cache
+*.ilk
+*.log
+*.lib
+*.sbr
+*.scc
+[Bb]in
+[Dd]ebug*/
+obj/
+[Rr]elease*/
+_ReSharper*/
+[Tt]humbs.db
+[Tt]est[Rr]esult*
+[Bb]uild[Ll]og.*
+*.[Pp]ublish.xml
+*.resharper
+*.orig
+*Backup/*
+UpgradeLog2.htm
+MVCForum.Website/Content/uploads/*
+Badges/AuthorMarkAsSolution/*.dll
+MVCForum.Website/Content/cache/*.css
+MVCForum.Website/Scripts/cache/*.js
+# Nuget
+packages/*
+MVCForum.Website/Properties/PublishProfiles/Profile1.pubxml
+MVCForum.Website/Properties/PublishProfiles/Local Deployment.pubxml
+MVCForum.Website/Properties/PublishProfiles/Profile1.pubxml
+*.vspx
+*.psess
+MVCForum.Website/App_Data/cache/*
+MVCForum.Website/App_Data/LogFile*
+MVCForum.Website/App_Data/MVCForum.sdf
